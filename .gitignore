@@ -1,0 +1,13 @@
+.venv/
+data/
+outputs/*
+!outputs/full/
+outputs/full/*
+!outputs/full/tables/
+!outputs/full/figures/
+!outputs/full/models/
+!outputs/full/run_info.json
+!outputs/full/dcss_gate.json
+outputs/full/cache/
+__pycache__/
+*.pyc

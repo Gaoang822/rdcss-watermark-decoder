@@ -1,0 +1,67 @@
+{
+  "seed": 2026,
+  "device": "cpu",
+  "quick": false,
+  "train_samples": 720,
+  "validation_samples": 180,
+  "test_samples_per_condition": 144,
+  "single_view_parameters": 7710,
+  "pmfa_parameters": 24224,
+  "pmfa_fusion_gate": 0.04641792178153992,
+  "tail_decoder_parameters": 312158,
+  "dcss_ft_parameters": 7710,
+  "single_view_train_seconds": 0.1452497000573203,
+  "pmfa_train_seconds": 0.28073300002142787,
+  "tail_decoder_train_seconds": 497.3922359000426,
+  "dcss_ft_train_seconds": 0.08316979999653995,
+  "r_dcss_gate": {
+    "dcss_gate_threshold": 0.174,
+    "fallback_mode": "first",
+    "selection_metric": "validation macro-average Bit Accuracy",
+    "validation_conditions": [
+      "crop50",
+      "crop50_blur",
+      "crop50_jpeg"
+    ]
+  },
+  "runtime_table": [
+    {
+      "method": "PIMoG-Original",
+      "decode_ms_per_sample": 46.34816388877678
+    },
+    {
+      "method": "Coarse-Prior",
+      "decode_ms_per_sample": 45.656440278334124
+    },
+    {
+      "method": "Multi-View-Average",
+      "decode_ms_per_sample": 396.03071249924443
+    },
+    {
+      "method": "Single-View-FT",
+      "decode_ms_per_sample": 46.72790694490282
+    },
+    {
+      "method": "PMFA",
+      "decode_ms_per_sample": 396.93146388971303
+    },
+    {
+      "method": "Decoder-Tail-FT",
+      "decode_ms_per_sample": 46.03549583245896
+    },
+    {
+      "method": "DCSS",
+      "decode_ms_per_sample": 397.6414902782481
+    },
+    {
+      "method": "DCSS-FT",
+      "decode_ms_per_sample": 397.1333000000514
+    },
+    {
+      "method": "R-DCSS",
+      "decode_ms_per_sample": 397.54064027834426
+    }
+  ],
+  "psnr_mean": 37.13033199310303,
+  "ssim_mean": 0.9810297265648842
+}

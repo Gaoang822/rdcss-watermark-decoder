@@ -1,0 +1,10 @@
+{
+  "dcss_gate_threshold": 0.174,
+  "fallback_mode": "first",
+  "selection_metric": "validation macro-average Bit Accuracy",
+  "validation_conditions": [
+    "crop50",
+    "crop50_blur",
+    "crop50_jpeg"
+  ]
+}

@@ -1,0 +1,12 @@
+torch
+torchvision
+kornia
+opencv-python-headless
+scipy
+scikit-image
+pandas
+matplotlib
+python-docx
+requests
+tqdm
+

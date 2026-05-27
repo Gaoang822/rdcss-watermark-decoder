@@ -1,0 +1,14 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+This repository is distributed under the GNU General Public License,
+version 3, because it includes the official PIMoG implementation that
+is provided under GPL-3.0.
+
+The complete GPL-3.0 license text is included at:
+
+    third_party/PIMoG/LICENSE
+
+A copy is also available at:
+
+    https://www.gnu.org/licenses/gpl-3.0.txt
